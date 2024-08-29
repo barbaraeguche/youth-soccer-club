@@ -1,0 +1,10 @@
+:root {
+	--bgColor: hsl(210 100% 97%);
+	--headFoot: hsl(308 56% 85%);
+	--bgTxtColor: hsl(339 20% 20%);
+	--smTxtColor: hsl(210 22% 22%);
+	--delBtnBg: hsl(0, 75%, 74%);
+	--editBtnBg: hsl(60, 100%, 90%);
+	--addBtnBg: hsl(120, 65%, 90%);
+	--selectBtnBg: hsl(211, 37%, 83%);
+}

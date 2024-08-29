@@ -1,0 +1,39 @@
+* {
+	font-family: "Garamond", serif;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: var(--bgColor);
+}
+
+header {
+	width: 100vw;
+	padding: 1em;
+	background-color: var(--headFoot);
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+h2 {
+	font-size: 1.5em;
+}
+
+nav {
+	display: flex;
+	gap: 2em;
+}
+
+a {
+	text-decoration: none;
+	color: var(--bgTxtColor);
+	font-size: 1em;
+	transition: transform 0.1s linear;
+
+	&:hover:not(a[href='create.php']) {
+		transform: scale(1.1);
+	}
+}
